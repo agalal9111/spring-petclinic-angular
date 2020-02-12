@@ -34,6 +34,8 @@ module.exports = function (config) {
                 '--no-sandbox', // required to run without privileges in docker
                 '--user-data-dir=/tmp/chrome-test-profile',
                 '--disable-web-security'
+              }
+              },
     singleRun: false
   });
 };
