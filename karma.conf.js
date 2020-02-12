@@ -29,6 +29,6 @@ module.exports = function (config) {
     customLaunchers: {
       flags: ['--no-sandbox']
     }
-    singleRun: false
+    
   });
 };
